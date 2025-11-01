@@ -1,3 +1,11 @@
 spring:
   application:
     name: arquitetura-spring
+  jpa:
+    show-sql: true
+  main:
+    lazy-initialization: false
+
+app:
+  config:
+    variavel: X
